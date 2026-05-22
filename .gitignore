@@ -1,0 +1,16 @@
+# Variables de entorno (NUNCA subir al repo)
+.env
+
+# Entorno virtual
+venv/
+
+# Audios generados
+*.mp3
+*.wav
+
+credentials.json
+
+# Python
+__pycache__/
+*.pyc
+.DS_Store
