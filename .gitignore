@@ -5,7 +5,7 @@
 venv/
 
 # Audios generados
-*.mp3
+# *.mp3
 *.wav
 
 credentials.json
