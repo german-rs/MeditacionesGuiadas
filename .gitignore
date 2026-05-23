@@ -1,4 +1,4 @@
-# Variables de entorno (NUNCA subir al repo)
+# Variables de entorno
 .env
 
 # Entorno virtual
@@ -6,7 +6,10 @@ venv/
 
 # Audios generados
 # *.mp3
-*.wav
+# *.wav
+
+# Google Cloud SDK
+google-cloud-sdk/
 
 credentials.json
 
