@@ -20,9 +20,9 @@ PROJECT_ID = os.getenv("GOOGLE_CLOUD_PROJECT")
 # ── Sesión de meditación en SSML ──────────────────────────────────────────────
 SESION_MEDITACION_SSML = """
 <speak>
-  Bienvenido a tu sesión de meditación.
+  Te doy la bienvenida a esta sesión de meditación.
   <break time="1500ms"/>
-  Encuentra una posición cómoda, ya sea sentado o acostado.
+  Busca una posición cómoda, ya sea en una silla o sobre una superficie plana.
   <break time="1000ms"/>
   Cierra suavemente los ojos.
   <break time="2500ms"/>
@@ -73,7 +73,7 @@ SESION_MEDITACION_SSML = """
 
   Respira naturalmente.
   <break time="1500ms"/>
-  Siente el peso de tu cuerpo sobre la superficie donde descansas.
+  Siente el peso de tu cuerpo sobre la superficie donde te encuentras.
   <break time="2000ms"/>
   Siente cómo la tensión abandona tus hombros...
   <break time="800ms"/>
@@ -92,14 +92,14 @@ SESION_MEDITACION_SSML = """
   Y abre los ojos con calma.
   <break time="2000ms"/>
 
-  Has completado tu sesión de meditación.
+  Esta sesión de meditación ha concluido.
   <break time="1000ms"/>
   Que tengas un día pleno y sereno.
 </speak>
 """
 
 
-def generar_audio(ssml: str, nombre_final: str = "meditacion_gemini.mp3") -> str:
+def generar_audio(ssml: str, nombre_final: str = "meditacion_gemini_gen.mp3") -> str:
     # 1. Autenticación
     credentials, _ = google.auth.default(
         scopes=["https://www.googleapis.com/auth/cloud-platform"]
@@ -189,5 +189,5 @@ def generar_audio(ssml: str, nombre_final: str = "meditacion_gemini.mp3") -> str
 
 
 if __name__ == "__main__":
-    generar_audio(SESION_MEDITACION_SSML, nombre_final="meditacion_gemini.mp3")
+    generar_audio(SESION_MEDITACION_SSML, nombre_final="meditacion_gemini_gen.mp3")
     print("\n🧘 Archivo listo para reproducir.")
