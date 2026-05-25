@@ -5,7 +5,7 @@ import subprocess
 BASE_DIR        = os.path.dirname(os.path.abspath(__file__))
 
 VOZ_MEDITACION  = os.path.join(BASE_DIR, "meditacion_gemini_gen_Enceladus.mp3")
-MUSICA_FONDO    = os.path.join(BASE_DIR, "528hz-meditation.mp3")
+MUSICA_FONDO    = os.path.join(BASE_DIR, "528-hz-meditation-loop.mp3")
 SALIDA          = os.path.join(BASE_DIR, "meditacion_fusionada.mp3")
 
 # ── Configuración de mezcla ──────────────────────────────────────────────────

@@ -32,21 +32,21 @@ SESION_MEDITACION_SSML = """
 
   <prosody rate="medium" pitch="0st">
     Te doy la bienvenida a esta sesión de meditación.
-    <break time="2000ms"/>
+    <break time="2500ms"/>
     Este es tu momento.
-    <break time="1500ms"/>
+    <break time="1875ms"/>
     Un espacio solo para ti,
-    <break time="1000ms"/>
+    <break time="1250ms"/>
     lejos de las exigencias del día.
-    <break time="3000ms"/>
+    <break time="3750ms"/>
     En los próximos minutos,
-    <break time="1000ms"/>
+    <break time="1250ms"/>
     vas a entrenar tu mente para volver al presente...
-    <break time="1500ms"/>
+    <break time="1875ms"/>
     a soltar lo que no puedes controlar...
-    <break time="1500ms"/>
+    <break time="1875ms"/>
     y a encontrar calma donde estás.
-    <break time="4000ms"/>
+    <break time="5000ms"/>
   </prosody>
 
 
@@ -57,51 +57,51 @@ SESION_MEDITACION_SSML = """
 
   <prosody rate="slow" pitch="-1st">
     Busca una posición cómoda,
+    <break time="1250ms"/>
+    ya sea sentada en una silla
     <break time="1000ms"/>
-    ya sea sentado en una silla
-    <break time="800ms"/>
     o sobre una superficie plana.
-    <break time="2500ms"/>
+    <break time="3125ms"/>
     Deja que tu espalda encuentre su propio apoyo...
-    <break time="2000ms"/>
+    <break time="2500ms"/>
     y cierra suavemente los ojos.
-    <break time="4000ms"/>
+    <break time="5000ms"/>
 
     Lleva la atención a tu cuerpo.
-    <break time="2000ms"/>
-    Siente el peso de tu cuerpo sobre la superficie donde te encuentras...
-    <break time="3000ms"/>
-    Nota el contacto de tus pies con el suelo...
     <break time="2500ms"/>
+    Siente el peso de tu cuerpo sobre la superficie donde te encuentras...
+    <break time="3750ms"/>
+    Nota el contacto de tus pies con el suelo...
+    <break time="3125ms"/>
     el contacto de tus manos sobre tus piernas...
-    <break time="3000ms"/>
+    <break time="3750ms"/>
 
     Ahora siente cómo la tensión abandona tus hombros...
-    <break time="2000ms"/>
+    <break time="2500ms"/>
     tu cuello...
-    <break time="2000ms"/>
+    <break time="2500ms"/>
     tu mandíbula...
-    <break time="2000ms"/>
+    <break time="2500ms"/>
     tu frente.
-    <break time="4000ms"/>
+    <break time="5000ms"/>
 
     Sin forzar nada...
-    <break time="1500ms"/>
+    <break time="1875ms"/>
     simplemente permite que cada parte de tu cuerpo
-    <break time="1000ms"/>
+    <break time="1250ms"/>
     se vuelva un poco más ligera...
-    <break time="1000ms"/>
+    <break time="1250ms"/>
     un poco más relajada...
-    <break time="5000ms"/>
+    <break time="6250ms"/>
 
     Respira profundamente...
-    <break time="1000ms"/>
+    <break time="1250ms"/>
     inhala...
-    <break time="2000ms"/>
+    <break time="2500ms"/>
     y exhala lentamente...
-    <break time="3000ms"/>
+    <break time="3750ms"/>
     Siente cómo tu cuerpo se relaja con cada respiración.
-    <break time="5000ms"/>
+    <break time="6250ms"/>
   </prosody>
 
 
@@ -112,103 +112,103 @@ SESION_MEDITACION_SSML = """
 
   <prosody rate="x-slow" pitch="-2st">
     Ahora vamos a trabajar con la respiración.
-    <break time="2000ms"/>
+    <break time="2500ms"/>
     Inhala por la nariz contando hasta cuatro.
-    <break time="1500ms"/>
+    <break time="1875ms"/>
     Uno...
-    <break time="1000ms"/>
+    <break time="1250ms"/>
     dos...
-    <break time="1000ms"/>
+    <break time="1250ms"/>
     tres...
-    <break time="1000ms"/>
+    <break time="1250ms"/>
     cuatro.
-    <break time="1500ms"/>
+    <break time="1875ms"/>
     Retén el aire suavemente...
-    <break time="1000ms"/>
+    <break time="1250ms"/>
     uno...
-    <break time="1000ms"/>
+    <break time="1250ms"/>
     dos...
-    <break time="1000ms"/>
+    <break time="1250ms"/>
     tres...
-    <break time="1000ms"/>
+    <break time="1250ms"/>
     cuatro...
-    <break time="1000ms"/>
+    <break time="1250ms"/>
     cinco.
-    <break time="1500ms"/>
+    <break time="1875ms"/>
     Y exhala lentamente por la boca...
-    <break time="1000ms"/>
+    <break time="1250ms"/>
     uno...
-    <break time="1000ms"/>
+    <break time="1250ms"/>
     dos...
-    <break time="1000ms"/>
+    <break time="1250ms"/>
     tres...
-    <break time="1000ms"/>
+    <break time="1250ms"/>
     cuatro...
-    <break time="1000ms"/>
+    <break time="1250ms"/>
     cinco...
-    <break time="1000ms"/>
+    <break time="1250ms"/>
     seis.
-    <break time="5000ms"/>
+    <break time="6250ms"/>
 
     Muy bien.
-    <break time="2000ms"/>
+    <break time="2500ms"/>
     Repitamos.
-    <break time="1500ms"/>
+    <break time="1875ms"/>
     Inhala...
-    <break time="1000ms"/>
+    <break time="1250ms"/>
     uno...
-    <break time="1000ms"/>
+    <break time="1250ms"/>
     dos...
-    <break time="1000ms"/>
+    <break time="1250ms"/>
     tres...
-    <break time="1000ms"/>
+    <break time="1250ms"/>
     cuatro.
-    <break time="1500ms"/>
+    <break time="1875ms"/>
     Retén...
-    <break time="1000ms"/>
+    <break time="1250ms"/>
     uno...
-    <break time="1000ms"/>
+    <break time="1250ms"/>
     dos...
-    <break time="1000ms"/>
+    <break time="1250ms"/>
     tres...
-    <break time="1000ms"/>
+    <break time="1250ms"/>
     cuatro...
-    <break time="1000ms"/>
+    <break time="1250ms"/>
     cinco.
-    <break time="1500ms"/>
+    <break time="1875ms"/>
     Exhala...
-    <break time="1000ms"/>
+    <break time="1250ms"/>
     uno...
-    <break time="1000ms"/>
+    <break time="1250ms"/>
     dos...
-    <break time="1000ms"/>
+    <break time="1250ms"/>
     tres...
-    <break time="1000ms"/>
+    <break time="1250ms"/>
     cuatro...
-    <break time="1000ms"/>
+    <break time="1250ms"/>
     cinco...
-    <break time="1000ms"/>
+    <break time="1250ms"/>
     seis.
-    <break time="6000ms"/>
+    <break time="7500ms"/>
 
     Ahora deja que tu respiración vuelva a su ritmo natural.
-    <break time="3000ms"/>
+    <break time="3750ms"/>
     Lleva tu atención al presente.
-    <break time="3000ms"/>
+    <break time="3750ms"/>
     Si algún pensamiento aparece...
-    <break time="2000ms"/>
-    obsérvalo sin juzgarlo...
-    <break time="2000ms"/>
-    y suéltalo suavemente...
     <break time="2500ms"/>
+    obsérvalo sin juzgarlo...
+    <break time="2500ms"/>
+    y suéltalo suavemente...
+    <break time="3125ms"/>
     como si fuera una hoja flotando en el agua.
-    <break time="3500ms"/>
+    <break time="4375ms"/>
     No hay nada que resolver ahora.
-    <break time="3000ms"/>
+    <break time="3750ms"/>
     No hay ningún lugar donde estar.
-    <break time="3000ms"/>
+    <break time="3750ms"/>
     Solo este momento.
-    <break time="6000ms"/>
+    <break time="7500ms"/>
   </prosody>
 
 
@@ -219,26 +219,26 @@ SESION_MEDITACION_SSML = """
 
   <prosody rate="x-slow" pitch="-3st" volume="soft">
     Imagina que estás en un lugar tranquilo...
-    <break time="3000ms"/>
+    <break time="3750ms"/>
     Un lugar donde te sientes completamente seguro...
-    <break time="3000ms"/>
+    <break time="3750ms"/>
     y completamente en paz.
-    <break time="8000ms"/>
-
-    Cada vez que exhalas...
-    <break time="2000ms"/>
-    te hundes un poco más en esa calma.
     <break time="10000ms"/>
 
+    Cada vez que exhalas...
+    <break time="2500ms"/>
+    te hundes un poco más en esa calma.
+    <break time="12500ms"/>
+
     No tienes que hacer nada.
-    <break time="4000ms"/>
+    <break time="5000ms"/>
     No tienes que llegar a ningún lado.
-    <break time="12000ms"/>
+    <break time="15000ms"/>
 
     Aquí puedes simplemente...
-    <break time="3000ms"/>
+    <break time="3750ms"/>
     ser.
-    <break time="15000ms"/>
+    <break time="18750ms"/>
   </prosody>
 
 
@@ -249,29 +249,29 @@ SESION_MEDITACION_SSML = """
 
   <prosody rate="slow" pitch="-1st" volume="medium">
     Poco a poco, comienza a traer de vuelta tu conciencia a este espacio.
-    <break time="3000ms"/>
+    <break time="3750ms"/>
     Lleva contigo esta calma.
-    <break time="2000ms"/>
-    No tienes que dejarla aquí.
     <break time="2500ms"/>
+    No tienes que dejarla aquí.
+    <break time="3125ms"/>
     Es tuya.
-    <break time="4000ms"/>
-
-    Tómate un momento para agradecer este tiempo que te diste.
-    <break time="3000ms"/>
-    No siempre es fácil detenerse...
-    <break time="2000ms"/>
-    y hoy lo hiciste.
     <break time="5000ms"/>
 
+    Tómate un momento para agradecer este tiempo que te diste.
+    <break time="3750ms"/>
+    No siempre es fácil detenerse...
+    <break time="2500ms"/>
+    y hoy lo hiciste.
+    <break time="6250ms"/>
+
     Cuando salgas de aquí,
-    <break time="1500ms"/>
+    <break time="1875ms"/>
     puedes llevar esta respiración,
-    <break time="1500ms"/>
+    <break time="1875ms"/>
     esta presencia,
-    <break time="1500ms"/>
+    <break time="1875ms"/>
     a todo lo que venga.
-    <break time="4000ms"/>
+    <break time="5000ms"/>
   </prosody>
 
 
@@ -282,23 +282,23 @@ SESION_MEDITACION_SSML = """
 
   <prosody rate="slow" pitch="0st" volume="medium">
     Cuando estés lista,
-    <break time="1500ms"/>
+    <break time="1875ms"/>
     comienza a mover suavemente los dedos de las manos...
-    <break time="3000ms"/>
+    <break time="3750ms"/>
     y los dedos de los pies.
-    <break time="3000ms"/>
+    <break time="3750ms"/>
   </prosody>
 
   <prosody rate="medium" pitch="+1st" volume="medium">
     Toma una respiración profunda final...
-    <break time="4000ms"/>
+    <break time="5000ms"/>
     Y abre los ojos con lentitud,
-    <break time="1500ms"/>
+    <break time="1875ms"/>
     dejando que la luz entre suavemente.
-    <break time="3000ms"/>
+    <break time="3750ms"/>
 
     La sesión ha concluido.
-    <break time="2000ms"/>
+    <break time="2500ms"/>
     Que tengas un día pleno y consciente.
   </prosody>
 
