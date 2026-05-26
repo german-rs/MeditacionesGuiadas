@@ -220,12 +220,12 @@ SESION_MEDITACION_SSML = """
   <prosody rate="x-slow" pitch="-3st" volume="soft">
     Imagina que estás en un lugar tranquilo...
     <break time="3750ms"/>
-    Un lugar donde te sientes completamente seguro...
+    Un lugar donde te sientes completamente segura...
     <break time="3750ms"/>
     y completamente en paz.
     <break time="10000ms"/>
 
-    Cada vez que exhalas...
+    y cada vez que exhalas...
     <break time="2500ms"/>
     te hundes un poco más en esa calma.
     <break time="12500ms"/>
@@ -264,7 +264,7 @@ SESION_MEDITACION_SSML = """
     y hoy lo hiciste.
     <break time="6250ms"/>
 
-    Cuando salgas de aquí,
+    Cuando hayas terminado,
     <break time="1875ms"/>
     puedes llevar esta respiración,
     <break time="1875ms"/>
@@ -285,7 +285,7 @@ SESION_MEDITACION_SSML = """
     <break time="1875ms"/>
     comienza a mover suavemente los dedos de las manos...
     <break time="3750ms"/>
-    y los dedos de los pies.
+    y los de los pies.
     <break time="3750ms"/>
   </prosody>
 
@@ -299,14 +299,14 @@ SESION_MEDITACION_SSML = """
 
     La sesión ha concluido.
     <break time="2500ms"/>
-    Que tengas un día pleno y consciente.
+    Que tengas un gran día...
   </prosody>
 
 </speak>
 """
 
 
-def generar_audio(ssml: str, nombre_final: str = "meditacion_gemini_gen_Enceladus.mp3") -> str:
+def generar_audio(ssml: str, nombre_final: str = "meditacion_gemini_gen_Zephyr.mp3") -> str:
     # 1. Autenticación
     credentials, _ = google.auth.default(
         scopes=["https://www.googleapis.com/auth/cloud-platform"]
@@ -343,14 +343,14 @@ def generar_audio(ssml: str, nombre_final: str = "meditacion_gemini_gen_Enceladu
             "speechConfig": {
                 "voiceConfig": {
                     "prebuiltVoiceConfig": {
-                        "voiceName": "Enceladus"
+                        "voiceName": "Zephyr"
                     }
                 }
             }
         }
     }
 
-    print("🎙️  Generando audio con Gemini 2.5 pro TTS (voz Enceladus)...")
+    print("🎙️  Generando audio con Gemini 2.5 flash TTS (voz * Zephyr)...")
     response = requests.post(url, json=payload, headers=headers)
 
     if response.status_code != 200:
@@ -397,5 +397,5 @@ def generar_audio(ssml: str, nombre_final: str = "meditacion_gemini_gen_Enceladu
 
 
 if __name__ == "__main__":
-    generar_audio(SESION_MEDITACION_SSML, nombre_final="meditacion_gemini_gen_Enceladus.mp3")
+    generar_audio(SESION_MEDITACION_SSML, nombre_final="meditacion_gemini_gen_Zephyr.mp3")
     print("\n🧘 Archivo listo para reproducir.")
